@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a0a3b4;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.612);
+    border-radius: 10px;
+    width: 800px;
+    height: 450px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.lol {
+    margin-bottom: 20px;
+}
+
+.lol p {
+    display: inline-block;
+    background-color: #f1f1f1;
+    padding: 8px 12px;
+    margin-right: 10px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    color: #000000;
+}
+
+.pipos {
+    display: flex;
+    gap: 20px;
+}
+
+.pipo {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.pipo img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.title {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.images {
+    display: flex;
+    gap: 5px;
+}
+
+.images img {
+    width: 30%;
+    border-radius: 10px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.info p {
+    color: #888;
+}
